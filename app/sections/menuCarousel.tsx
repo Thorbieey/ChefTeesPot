@@ -1,6 +1,8 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleRight, faCircleLeft } from '@fortawesome/free-regular-svg-icons'
 
 const MenuCarousel = ({images}: { images: ImageProps[] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -57,15 +59,15 @@ const MenuCarousel = ({images}: { images: ImageProps[] }) => {
       {/* Navigation Buttons */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-2 p-1 md:p-2 bg-white rounded-full shadow-md -translate-y-1/2"
+        className="absolute top-1/2 left-2 shadow-md -translate-y-1/2"
       >
-        ◀
+        <FontAwesomeIcon icon={faCircleLeft} size="lg" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-2 p-1 md:p-2 bg-white rounded-full shadow-md -translate-y-1/2"
+        className="absolute top-1/2 right-2 rounded-full shadow-md -translate-y-1/2"
       >
-        ▶
+        <FontAwesomeIcon icon={faCircleRight} size="lg" />
       </button>
 
       {/* Pagination Dots */}
