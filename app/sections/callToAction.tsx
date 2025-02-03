@@ -26,7 +26,7 @@ const CallToAction = () =>
         </div>
         <div className="h-full min-h-[600px]  relative mt-8 md:mt-10 flex-1 w-full bg-black" style={{ backgroundImage: "url(/images/dinner.jpg)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
           {/* <img className="h-full w-full" src="/images/dinner.jpg" alt="" /> */}
-          <div className="absolute flex  flex-col text-black gap-4 md:flex-row px-4 py-4 bg-white top-0 right-0">
+          <div className="absolute flex  flex-col text-black gap-4 md:flex-row px-4 py-4 bg-stone-300 top-0 right-0">
             <div className="space-y-2">
               <span className="font-medium text-lg">Remaining Time</span>
               <Countdown targetDate="2025-02-15" />
@@ -36,7 +36,7 @@ const CallToAction = () =>
               <span className="md:text-2xl text-lg font-bold">N30,000</span>
             </div>
           </div>
-            <Link href={"https://tix.africa/ifebycheftee"} target="_blank" className="absolute bottom-0 left-0 bg-white p-4 text-black">
+            <Link href={"https://tix.africa/ifebycheftee"} target="_blank" className="absolute bottom-0 left-0 bg-stone-300 p-4 text-black">
               <div className="md:text-xl text-lg font-semibold flex items-center gap-2 w-fit"><span>Attend the Event</span> <ArrowUpRight/></div>
             </Link>
         </div>
