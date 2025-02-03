@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @plugin "daisyui";
+@plugin "flyonui";
+/* @plugin "flyonui/plugin"; */
 
 /* :root {
   --background: #ffffff;

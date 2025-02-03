@@ -15,7 +15,7 @@ const EventDetail = () => {
       <div className="absolute inset-0 w-full h-full " style={{ backgroundImage: "url(/images/bannerImage2.jpg)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
       <div className="z-50">
         <span className="text-white text-5xl md:text-7xl font-semibold text-center">
-          <span className="text-red-700 font-[Delius]">IFE</span> by Chef{" "}
+          <span className="text-red-700 font-[Delius] text-6xl md:text-8xl">IFE</span> by Chef{" "}
           <span className="text-red-700">{"Tee's"}</span> Pot
         </span>
       </div>

@@ -11,7 +11,7 @@ const Footer = () => {
     >
       <div className="flex items-center flex-col gap-4">
         <div className='flex flex-col items-center gap-4 text-2xl font-semibold'>
-          <Image width={80} height={80} src="/images/logo.png" alt="" />
+          <Image width={100} height={60} src="/images/logo.png" alt="" />
           <span className="text-white text-2xl font-semibold">
             Chef{" "}
             <span className="text-red-700">{"Tee's Pot"}</span>
