@@ -1,9 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  daisyui: {
-    config: './daisyui.config.js',
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

@@ -19,8 +19,7 @@ const CallToAction = () =>
             Prepare to experience the magic of love like never before! &apos;Ife&apos; is
             more than an event; it’s a celebration of connection, passion, and
             heartfelt moments. Join us as we journey through the beauty of love
-            in all its forms. Mark your calendar and get ready to make memories
-            that will linger forever. Let love lead the way!
+            in all its forms. Come and share a 7-course meal with your lover and friends this valentine season!
           </span>
           <Link href={"#event-detail"} className="text-lg w-fit underline underline-offset-4">Scroll down to discover</Link>
         </div>
@@ -36,8 +35,8 @@ const CallToAction = () =>
               <span className="md:text-2xl text-lg font-bold">N30,000</span>
             </div>
           </div>
-            <Link href={"https://tix.africa/ifebycheftee"} target="_blank" className="absolute bottom-0 left-0 bg-stone-300 p-4 text-black">
-              <div className="md:text-xl text-lg font-semibold flex items-center gap-2 w-fit"><span>Attend the Event</span> <ArrowUpRight/></div>
+            <Link href={"https://tix.africa/ifebycheftee"} target="_blank" className="absolute bottom-0 left-0 bg-red-700 p-4 text-black">
+              <div className="md:text-2xl text-xl font-bold flex items-center gap-2 w-fit"><span>Get Your Ticket</span> <ArrowUpRight/></div>
             </Link>
         </div>
       </section>

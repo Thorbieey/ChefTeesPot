@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import daisyui from 'daisyui';
 import flyonui from 'flyonui';
 // import flyonuiPlugin from 'flyonui/plugin';
 
@@ -18,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [daisyui, flyonui],
+  plugins: [flyonui],
 } satisfies Config;
