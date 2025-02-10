@@ -35,7 +35,7 @@ const CallToAction = () =>
               <span className="md:text-2xl text-lg font-bold">N30,000</span>
             </div>
           </div>
-            <Link href={"https://tix.africa/ifebycheftee"} target="_blank" className="absolute bottom-0 left-0 bg-red-700 p-4 text-black">
+            <Link href={"https://tix.africa/ifebycheftee"} target="_blank" className="absolute bottom-0 left-0 bg-red-700 p-4 text-stone-300">
               <div className="md:text-2xl text-xl font-bold flex items-center gap-2 w-fit"><span>Get Your Ticket</span> <ArrowUpRight/></div>
             </Link>
         </div>
